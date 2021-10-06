@@ -1,5 +1,9 @@
 module NightCommon
 
-greet() = print("Hello World!")
+using Lazy
+
+include("./commands.jl")
+include("./macros_basic.jl")
+include("./testing.jl")
 
 end # module
